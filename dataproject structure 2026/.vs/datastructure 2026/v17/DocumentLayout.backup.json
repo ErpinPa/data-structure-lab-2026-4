@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\Visual Studio 2022\\data_structure_lab_2026_4\\dataproject structure 2026\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4085B596-915D-4B5B-886B-F9FB72070972}|dataproject structure 2026\\dataproject structure 2026.vcxproj|C:\\Users\\USER\\Documents\\Visual Studio 2022\\data_structure_lab_2026_4\\dataproject structure 2026\\dataproject structure 2026\\lec3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4085B596-915D-4B5B-886B-F9FB72070972}|dataproject structure 2026\\dataproject structure 2026.vcxproj|solutionrelative:dataproject structure 2026\\lec3.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4085B596-915D-4B5B-886B-F9FB72070972}|dataproject structure 2026\\dataproject structure 2026.vcxproj|C:\\Users\\USER\\Documents\\Visual Studio 2022\\data_structure_lab_2026_4\\dataproject structure 2026\\dataproject structure 2026\\\uC18C\uC2A4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4085B596-915D-4B5B-886B-F9FB72070972}|dataproject structure 2026\\dataproject structure 2026.vcxproj|solutionrelative:dataproject structure 2026\\\uC18C\uC2A4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\uC18C\uC2A4.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Visual Studio 2022\\data_structure_lab_2026_4\\dataproject structure 2026\\dataproject structure 2026\\\uC18C\uC2A4.cpp",
+              "RelativeDocumentMoniker": "dataproject structure 2026\\\uC18C\uC2A4.cpp",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Visual Studio 2022\\data_structure_lab_2026_4\\dataproject structure 2026\\dataproject structure 2026\\\uC18C\uC2A4.cpp",
+              "RelativeToolTip": "dataproject structure 2026\\\uC18C\uC2A4.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-11T00:38:55.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "lec3.c",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Visual Studio 2022\\data_structure_lab_2026_4\\dataproject structure 2026\\dataproject structure 2026\\lec3.c",
+              "RelativeDocumentMoniker": "dataproject structure 2026\\lec3.c",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Visual Studio 2022\\data_structure_lab_2026_4\\dataproject structure 2026\\dataproject structure 2026\\lec3.c*",
+              "RelativeToolTip": "dataproject structure 2026\\lec3.c*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-11T00:17:38.459Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
