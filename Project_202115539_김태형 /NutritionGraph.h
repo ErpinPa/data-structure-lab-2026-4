@@ -5,15 +5,9 @@
 #include <QMap>
 #include <QVector>
 
-/*
- * Edge 구조체
- *
- * 음식 노드와 영양소 노드를 연결하는
- * 그래프의 간선(Edge)을 표현한다.
- *
- * nutrient : 연결된 영양소 이름
- * amount   : 해당 영양소 함량(g)
- */
+//nutrient : 연결된 영양소 이름
+//amount   : 해당 영양소 함량(g)
+
 struct Edge
 {
     QString nutrient;
@@ -23,14 +17,8 @@ struct Edge
         : nutrient(n), amount(a) {}
 };
 
-/*
- * NutritionGraph 클래스
- *
- * 음식(Food)과 영양소(Nutrient)를
- * 이분 그래프(Bipartite Graph) 형태로 저장한다.
- *
- * 캡슐화를 위해 그래프 데이터는 private으로 관리한다.
- */
+//음식(Food)과 영양소(Nutrient)를이분 그래프(Bipartite Graph) 형태로 저장한다.
+// 캡슐화를 위해 그래프 데이터는 private으로 관리한다.
 class NutritionGraph
 {
 private:
