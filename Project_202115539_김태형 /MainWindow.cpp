@@ -5,7 +5,7 @@
 #include <QGroupBox>
 #include <cmath>
 
-MainWindow::MainWindow(QWidget *parent)
+MainWindow::MainWindow(QWidget *parent)        //gui를 위해 배치
     : QMainWindow(parent)
 {
     QWidget* centralWidget = new QWidget;
@@ -22,7 +22,7 @@ MainWindow::MainWindow(QWidget *parent)
     QHBoxLayout* bodyLayout =
         new QHBoxLayout;
 
-    heightBox = new QSpinBox;
+    heightBox = new QSpinBox;        //입력할 박스 크기 및 위치 선정
     heightBox->setRange(100,250);
     heightBox->setValue(175);
 
@@ -107,7 +107,7 @@ void MainWindow::calculateNutrition()
         dinner
     };
 
-    for(const QString& meal : meals)
+    for(const QString& meal : meals)        //영양소를 누적 계산(그래프 탐색)
     {
         carb += graph.getNutrient(
             meal,"Carbohydrate");
