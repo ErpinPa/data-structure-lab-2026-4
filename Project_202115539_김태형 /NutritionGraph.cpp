@@ -2,10 +2,10 @@
 
 NutritionGraph::NutritionGraph()
 {
-    initializeFoods();
+    initializeFoods();        //생성자
 }
 
-void NutritionGraph::addFoodNutrient(
+void NutritionGraph::addFoodNutrient(        //음식과 영양소 노드 연결
         const QString& food,
         const QString& nutrient,
         double amount)
@@ -14,7 +14,7 @@ void NutritionGraph::addFoodNutrient(
         Edge(nutrient, amount));
 }
 
-double NutritionGraph::getNutrient(
+double NutritionGraph::getNutrient(        //그래프 순회
         const QString& food,
         const QString& nutrient)
 {
@@ -35,7 +35,7 @@ QStringList NutritionGraph::getFoodList() const
     return graph.keys();
 }
 
-void NutritionGraph::initializeFoods()
+void NutritionGraph::initializeFoods()        //음식 등록
 {
     // Western
     addFoodNutrient("Spaghetti","Carbohydrate",75);
