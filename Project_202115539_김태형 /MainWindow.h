@@ -1,3 +1,5 @@
+//gui 담당
+
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
@@ -9,7 +11,7 @@
 
 #include "NutritionGraph.h"
 
-class MainWindow : public QMainWindow
+class MainWindow : public QMainWindow        //창 생성
 {
     Q_OBJECT
 
@@ -17,14 +19,14 @@ private:
 
     NutritionGraph graph;
 
-    QSpinBox* heightBox;
+    QSpinBox* heightBox;        //신체 정보
     QSpinBox* weightBox;
 
-    QComboBox* breakfastBox;
+    QComboBox* breakfastBox;        /식사 선택
     QComboBox* lunchBox;
     QComboBox* dinnerBox;
 
-    QLabel* resultLabel;
+    QLabel* resultLabel;        //결과
 
     QPushButton* calculateButton;
 
